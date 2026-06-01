@@ -1,0 +1,28 @@
+The-GitFather/
+│
+├── node_modules/
+├── commands/
+│   ├── ping.js
+│   ├── help.js
+│   ├── user.js
+│   ├── announce.js
+│   ├── clear.js
+│   └── github.js
+│
+├── events/
+│   ├── ready.js
+│   ├── messageCreate.js
+│   └── guildMemberAdd.js
+│
+├── config/
+│   └── config.json
+│
+├── handlers/
+│   ├── commandHandler.js
+│   └── eventHandler.js
+│
+├── .env
+├── index.js
+├── package.json
+├── README.md
+└── deploy-commands.js
